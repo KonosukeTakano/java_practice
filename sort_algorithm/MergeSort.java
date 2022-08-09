@@ -6,6 +6,7 @@ public class MergeSort{
     int[] newArray1 = makeArray(5);
     int[] newArray2 = makeArray(5);
 
+// ソート
     Arrays.sort(newArray1);
     Arrays.sort(newArray2);
 
@@ -16,7 +17,7 @@ public class MergeSort{
 
   }
 
-// 要素数nのソート済み配列を生成するメソッド
+// 要素数nの配列を生成するメソッド
   public static int[] makeArray(int n){
     int[] newArray = new int [n];
     for(int i = 0; i < newArray.length; i++){
