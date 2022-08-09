@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class mergeSort{
+public class MergeSort{
 
   public static void main(String[] args){
-    int[] newArray1 = makeArray(8);
-    int[] newArray2 = makeArray(7);
+    int[] newArray1 = makeArray(5);
+    int[] newArray2 = makeArray(5);
 
     Arrays.sort(newArray1);
     Arrays.sort(newArray2);
