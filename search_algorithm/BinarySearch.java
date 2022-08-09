@@ -6,8 +6,8 @@ public class BinarySearch{
     int[] newArray = makeArray(10);
     System.out.println(Arrays.toString(newArray));
 
+// 配列と探索したい数を渡す
     search(newArray, 21);
-    // 配列と探索したい数を受け取ってその配列に含まれる場合はtrue,含まれない場合はfalseを返すメソッド
 
   }
 
@@ -19,6 +19,7 @@ public class BinarySearch{
     }
     return newArray;
   }
+  // 配列と探索したい数を受け取り、その配列に含まれる場合はtrue,含まれない場合はfalseを返すメソッド
   public static void search(int []array, int n){
     Arrays.sort(array);
 
@@ -40,7 +41,6 @@ public class BinarySearch{
       }
     }
 
-    // 最後に結果を出力
     System.out.println(isIncluded);
 
   }
