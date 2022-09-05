@@ -14,7 +14,6 @@ public class Hash_java {
 		
 	}
 
-	
 	public static List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) return new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
