@@ -7,7 +7,6 @@ public class UniqueEmailSolution {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		
 		String[] emails = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
 		System.out.println(Solution(emails));
 	}
