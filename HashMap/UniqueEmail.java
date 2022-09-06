@@ -20,7 +20,6 @@ public class UniqueEmail {
 		
 		for(int i = 0; i < emails.length; i++) {
 			
-			
 			int flg1 = 0;
 			int flg2 = 0;
 			
